@@ -1,15 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Mambo Product Listing</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Bootstrap -->
-<link href="css/bootstrap/bootstrap.css" rel="stylesheet" media="screen">
-<link href="css/bootstrap/bootstrap-responsive.css" rel="stylesheet">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,latin-ext,cyrillic" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Online Home Appliances, Kitchen Appliances, Electrical Domestic & Household Appliances - Morphy Richards</title>
+    <meta name="Description" content="Buy online home appliances & kithcen appliance in India at Morphy Richards. Get the best deals on domestic appliances, household electrical items, appliances & get it delivered in just few days" />
+    <meta name="Keywords" content="kitchen appliances, buy kitchen appliances, domestic appliances, household appliances, electrical appliances, buy domestic appliances, kitchen appliances online, domestic appliances online, household appliances online, electrical appliances online" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta property="og:title" content="Morphy Richards :: Buy Online Home Appliances, Kitchen Appliances, Electrical Domestic & Household Appliances - Morphy Richards" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.morphyrichardsindia.com/default.aspx" />
+    <meta property="og:image" content="Theme/default/images/morphy.ico" />
+    <meta property="og:site_name" content="Morphy Richards" />
+    <meta property="fb:admins" content="1283475257" />
+    <meta property="og:description" content="Buy online home appliances & kithcen appliance in India at Morphy Richards. Get the best deals on domestic appliances, household electrical items, appliances & get it delivered in just few days" />
+    <link rel="icon" type="image/x-icon" href="img/morphy.ico" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap/bootstrap-responsive.css" rel="stylesheet">
+    <link href="less/morphy.css" rel="stylesheet">
+    <!--<link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,latin-ext,cyrillic" rel="stylesheet" type="text/css">-->
 </head>
 <body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="row-fluid">
+                <div class="span6">
+                    <a class="brand" href="./"><img src="img/logo.png" alt="morphy richards"></img></a>
+                </div>
+                <div class="span6 topnavigation-cart">
+                    <a href="/addtocart.aspx" class="fon-11 pull-right">
+                        VIEW CART
+                    </a>
+                    <span class="cart-icon pull-right">&nbsp;</span>
+                      <span class="total fon-11 pull-right">Total : Rs .
+                          <span id="spBagTotal">0.00</span>
+                      </span>
+                    <span class="items fon-11 pull-right">0&nbsp; item(s)</span>
+
+                </div>
+            </div>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    <li class="bevereges">
+                        <a href="/" class="active">
+                            BEVERAGES
+                        </a>
+                    </li>
+                    <li class="breakfast">
+                        <a href="/" class="">
+                            BREAKFAST & SNACKING
+                        </a>
+                    </li>
+                    <li class="cooking">
+                        <a href="/" class="">
+                            COOKING, FRYING & BAKING
+                        </a>
+                    </li>
+                    <li class="food">
+                        <a href="/" class="">
+                            FOOD PREPARATION
+                        </a>
+                    </li>
+                    <li class="garment">
+                        <a href="/" class="">
+                            GARMENT CARE
+                        </a>
+                    </li>
+                    <li class="floor">
+                        <a href="/" class="">
+                            HOME AND FLOOR CARE
+                        </a>
+                    </li>
+                    <li class="personal">
+                        <a href="/" class="">
+                            PERSONAL GROOMING
+                        </a>
+                    </li>
+                    <li class="heating">
+                        <a href="/" class="">
+                            HOME SOLUTIONS
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <section id="productDescription">
+        <div class="span10">
+            <div class="page-header">
+                <ul id="breadcrumb" class=" inline">
+                    <li><a href="/">Home</a></li>
+                    <li class="sep">/</li>
+                    <li class="active">Bevereges</li>
+                    <li class="sep-comp">&#0160;</li>
+                </ul>
+            </div>
+        </div>
+        <div id="banner">
+            <img src="img/3.jpg" width="982" height="210" border="0" alt="morphy" title="morphy">
+        </div>
+    </section>
+    <section id="productListing">
+        <div class="span12 main-title">Beverages</div>
+        <div class="row">
+            <div class="span10">
+                <div class="row">
+                    <div class="span2">
+                        Showing 1-20 of 20 results
+                    </div>
+                    <div class="span2">
+                        Sort by <select class="styled" id="ddlSort" name="ddlSort"><option value="Relevance">Relevance</option>
+                        <option value="Latest Items">Latest Items</option>
+                        <option value="A-Z">A-Z</option>
+                        <option value="Z-A">Z-A</option>
+                        <option value="Price Low-High">Price Low-High</option>
+                        <option selected="" value="Price High-Low">Price High-Low</option></select>
+                    </div>
+                    <div class="span2">
+                        View
+                    </div>
+                    <div class="span2 offset2">
+                        Prev 1 Next
+                    </div>
+                </div>
+            <div id="myspan">
+            <span style="float:left"><span class="left-1" style="padding:5px;margin-left:60px">View</span><a href="javascript:;" class="switch_thumb swap"></a></span><div id="spProductLoader1" style="   margin-left: 771px;margin-top: 9px;position:absolute;display:none;"></div><span class="pagi"><span style="float:right;width:105%"><a class="none">Prev</a><a class="pages"><strong><span>1</span></strong></a><a class="none" style="float:left">Next</a></span></span> </div> <ul class="display thumb_view">
+            <li>
+                <div class="content_block"><a href="Travel-Jug(PP)---Voyager-100-pc-49-16.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/590003.jpg" alt="Travel Jug(PP) - Voyager 100" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Travel-Jug(PP)---Voyager-100-pc-49-16.aspx" class="text">Travel Jug(PP) - Voyager 100</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>
+                    Full plastic body
+                </li><li>Concealed element for easy cleaning and de scaling
+                </li><li>Cool touch handle and lid
+                </li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 1,395.00</strong></span></span><div class="view-details"><a href="Travel-Jug(PP)---Voyager-100-pc-49-16.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content_block"><a href="Travel-Jug(PP)---Voyager-200-pc-48-16.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/590001.jpg" alt="Travel Jug(PP) - Voyager 200" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Travel-Jug(PP)---Voyager-200-pc-48-16.aspx" class="text">Travel Jug(PP) - Voyager 200</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>
+                    Safe and convenient to operate</li><li>
+                    Concealed element for easy cleaning and descaling</li><li>
+                    0.5 lts. 1090</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 1,595.00</strong></span></span><div class="view-details"><a href="Travel-Jug(PP)---Voyager-200-pc-48-16.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content_block"><a href="Travel-Jug-Kettle---Voyager-300-pc-76-16.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/590004.jpg" alt="Travel Jug Kettle - Voyager 300" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Travel-Jug-Kettle---Voyager-300-pc-76-16.aspx" class="text">Travel Jug Kettle - Voyager 300</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>
+                    Concealed element for easy cleaning</li><li>
+                    Stylish and durable stainless steel body</li><li>
+                    Cool touch handle</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 1,695.00</strong></span></span><div class="view-details"><a href="Travel-Jug-Kettle---Voyager-300-pc-76-16.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li class="bdr" style="*display:none">border line</li>
+            <li>
+                <div class="content_block"><a href="Optimo-Electric-kettle-pc-197-16.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/590014.jpg" alt="Optimo Electric kettle" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Optimo-Electric-kettle-pc-197-16.aspx" class="text">Optimo Electric kettle</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>1200 Watts</li><li>1 litre  capacity
+                </li><li>Auto cut-off and dry boil  protection</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 1,895.00</strong></span></span><div class="view-details"><a href="Optimo-Electric-kettle-pc-197-16.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content_block"><a href="Travel-Kettle---Voyager-400-pc-246-16.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/590016.jpg" alt="Travel Kettle - Voyager 400" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Travel-Kettle---Voyager-400-pc-246-16.aspx" class="text">Travel Kettle - Voyager 400</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>Concealed heating  element</li><li>Auto cut-off and dry  boil protection</li><li>SS 304 Stainless  Steel Body</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 1,995.00</strong></span></span><div class="view-details"><a href="Travel-Kettle---Voyager-400-pc-246-16.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content_block"><a href="Impresso-Electric-Kettle-pc-252-16.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/590015.jpg" alt="Impresso Electric Kettle" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Impresso-Electric-Kettle-pc-252-16.aspx" class="text">Impresso Electric Kettle</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>
+                    1100 Watts</li><li>
+                    1 litre</li><li>
+                    Auto cut-off and dry boil  protection</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 2,195.00</strong></span></span><div class="view-details"><a href="Impresso-Electric-Kettle-pc-252-16.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li class="bdr" style="*display:none">border line</li>
+            <li>
+                <div class="content_block"><a href="Electric-Kettle-%E2%80%93-Brio-10L-pc-244-16.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/590017.jpg" alt="Electric Kettle – Brio 1.0L" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Electric-Kettle-%E2%80%93-Brio-10L-pc-244-16.aspx" class="text">Electric Kettle – Brio 1.0L</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>
+                    Concealed heating  element</li><li>
+                    Auto cut-off and dry  boil protection</li><li>
+                    SS 304 Stainless  Steel Body</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 2,295.00</strong></span></span><div class="view-details"><a href="Electric-Kettle-%E2%80%93-Brio-10L-pc-244-16.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content_block"><a href="Rapido-Electric-Kettle-pc-142-16.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/590012.jpg" alt="Rapido Electric Kettle" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Rapido-Electric-Kettle-pc-142-16.aspx" class="text">Rapido Electric Kettle</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>
+                    1.8 Litre capacity</li><li>
+                    2200 watts</li><li>
+                    Clear view water level indicator</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 2,395.00</strong></span></span><div class="view-details"><a href="Rapido-Electric-Kettle-pc-142-16.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content_block"><a href="Max-pc-251-13.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/720007.jpg" alt="Max" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Max-pc-251-13.aspx" class="text">Max</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>
+                    450 watts motor</li><li>
+                    2 Speed control and incher switch for different...</li><li>
+                    Juicer mesh for higher juic</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 2,395.00</strong></span></span><div class="view-details"><a href="Max-pc-251-13.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li class="bdr" style="*display:none">border line</li>
+            <li>
+                <div class="content_block"><a href="Maximo-pc-249-13.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/720004.jpg" alt="Maximo" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Maximo-pc-249-13.aspx" class="text">Maximo</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>
+                    450 watts powerful motor
+                </li><li>Stainless steel juicer mesh for higher juice...</li><li>2 speed control and incher sw</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 2,495.00</strong></span></span><div class="view-details"><a href="Maximo-pc-249-13.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content_block"><a href="NoodlePasta-Beverage-maker---InstaCook-pc-195-16.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/590013.jpg" alt="Noodle/Pasta&amp; Beverage maker - InstaCook" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="NoodlePasta-Beverage-maker---InstaCook-pc-195-16.aspx" class="text">Noodle/Pasta&amp; Beverage maker - InstaCook</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>1200 Watts</li><li>1 litre  capacity
+                </li><li>Auto cut-off and dry boil  protection</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 2,595.00</strong></span></span><div class="view-details"><a href="NoodlePasta-Beverage-maker---InstaCook-pc-195-16.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content_block"><a href="Tea-Makers-pc-26-15.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/590000.jpg" alt="Tea Makers" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Tea-Makers-pc-26-15.aspx" class="text">Tea Makers</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>
+                    Stylish Design</li><li>
+                    Big filter and filter basket</li><li>
+                    Anti-skid rubber grip</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 2,895.00</strong></span></span><div class="view-details"><a href="Tea-Makers-pc-26-15.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li class="bdr" style="*display:none">border line</li>
+            <li>
+                <div class="content_block"><a href="Cafe-Rico-Filter-Coffee-Maker-pc-41-14.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/350002.jpg" alt="Cafe Rico Filter Coffee Maker" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Cafe-Rico-Filter-Coffee-Maker-pc-41-14.aspx" class="text">Cafe Rico Filter Coffee Maker</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>
+                    Brushed stainless steel trim</li><li>
+                    Fastbrew - brews coffee in 8 minutes</li><li>
+                    10 cup / 1.4 litre capacity</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 3,195.00</strong></span></span><div class="view-details"><a href="Cafe-Rico-Filter-Coffee-Maker-pc-41-14.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content_block"><a href="Cafe-Express-pc-161-14.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/350006.jpg" alt="Cafe Express " width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Cafe-Express-pc-161-14.aspx" class="text">Cafe Express </a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>Makes espresso, cappuccino &amp; latte coffee</li><li>850  watts</li><li>2-4 Cup Capacity</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 3,295.00</strong></span></span><div class="view-details"><a href="Cafe-Express-pc-161-14.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content_block"><a href="Electric-Kettle-%E2%80%93-Ceramico-10L-pc-253-16.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/590018.jpg" alt="Electric Kettle – Ceramico 1.0L" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Electric-Kettle-%E2%80%93-Ceramico-10L-pc-253-16.aspx" class="text">Electric Kettle – Ceramico 1.0L</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>
+                    Ceramic body and lid</li><li>
+                    Auto cut-off and dry boil protection</li><li>
+                    Concealed heating element</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 3,395.00</strong></span></span><div class="view-details"><a href="Electric-Kettle-%E2%80%93-Ceramico-10L-pc-253-16.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li class="bdr" style="*display:none">border line</li>
+            <li>
+                <div class="content_block"><a href="Juice-Extractor---Juice-Plus-pc-321-13.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/720009.jpg" alt="Juice Extractor - Juice Plus" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Juice-Extractor---Juice-Plus-pc-321-13.aspx" class="text">Juice Extractor - Juice Plus</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>
+                    Five Year Guarantee on motor</li><li>
+                    600 watts</li><li>
+                    Multiple speed control for soft and hard...</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 3,595.00</strong></span></span><div class="view-details"><a href="Juice-Extractor---Juice-Plus-pc-321-13.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content_block"><a href="Fresco-Coffee-Maker-pc-292-14.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/350009.jpg" alt="Fresco Coffee Maker" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Fresco-Coffee-Maker-pc-292-14.aspx" class="text">Fresco Coffee Maker</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>
+                    4 cup capacity</li><li>
+                    800 watts</li><li>
+                    Glass Carafe</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 3,995.00</strong></span></span><div class="view-details"><a href="Fresco-Coffee-Maker-pc-292-14.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content_block"><a href="New-Europa-EspressoCappuccino-pc-147-14.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/350007.jpg" alt="New Europa Espresso/Cappuccino" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="New-Europa-EspressoCappuccino-pc-147-14.aspx" class="text">New Europa Espresso/Cappuccino</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>
+                    800 watts</li><li>
+                    4 cup capacity</li><li>
+                    Unique easy to clean removable drip tray</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 4,595.00</strong></span></span><div class="view-details"><a href="New-Europa-EspressoCappuccino-pc-147-14.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li class="bdr" style="*display:none">border line</li>
+            <li>
+                <div class="content_block"><a href="Juice-Xpress-pc-281-13.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/720008.jpg" alt="Juice Xpress" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Juice-Xpress-pc-281-13.aspx" class="text">Juice Xpress</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>
+                    Multiple speed control for soft and hard fruits</li><li>
+                    Cord storage facility</li><li>
+                    Stainless Steel micro mesh fil</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 5,495.00</strong></span></span><div class="view-details"><a href="Juice-Xpress-pc-281-13.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="content_block"><a href="Meno-Espresso-Brushed-pc-293-14.aspx" class="image"><div class="image left-1"><img border="0" src="/Images/Catalogue/Product/medium/350008.jpg" alt="Meno Espresso Brushed" width="140" height="140"></div></a><div class="view-content left-1">
+                    <h3><a href="Meno-Espresso-Brushed-pc-293-14.aspx" class="text">Meno Espresso Brushed</a></h3><br clear="all"><span class="ratings"><span class="currently">
+                            Currently No Review
+                          </span></span><br clear="all"><span class="view-intro"><ul><li>
+                    15 Bar Pressure</li><li>
+                    10 Cup Capacity</li><li>
+                    Steam Wand functionality  for milk frothing</li></ul></span></div>
+                    <div class="view-price"><span class="price"><span style="font-size:15px;float:left"><strong><span style="float:left;width:80px;padding-right:2px;text-align:right">MRP: </span> Rs. 9,995.00</strong></span></span><div class="view-details"><a href="Meno-Espresso-Brushed-pc-293-14.aspx" style="float:right;"><img src="../images/view-details-btn.png" border="0" width="126" height="27" alt="view details" title="view details"></a></div>
+                    </div>
+                </div>
+            </li>
+            </ul> <div class="grid-panel"> <span class="results">
+      Showing <strong>1</strong> - <strong>20</strong> of <strong>20</strong> results
+    </span><span style="float:left"><div><span id="spLoader" style="display:none;">
+          &nbsp;
+        </span></div></span><span style="float:left"><span class="left-1" style="padding:5px;margin-left:60px">View</span><a href="javascript:;" class="switch_thumb swap"></a></span><div id="spProductLoader0" style="   margin-left: 771px;margin-top: 9px;position:absolute;display:none;"></div><span class="pagi"><span style="float:right;width:105%"><a class="none">Prev</a><a class="pages"><strong><span>1</span></strong></a><a class="none" style="float:left">Next</a></span></span> </div> </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+</div>
 <script src="js/jquery.js"></script>
-<script src="js/bootstrap/bootstrap.min.js"></script> 
+<script src="js/bootstrap/bootstrap.min.js"></script>
 </body>
 </html>
