@@ -281,3 +281,48 @@ ul#breadcrumb li a {
 .tab-content .tab-pane .title {
   margin-top: 5px;
 }
+.content-block {
+  float: left;
+  border-right: 1px dotted #ccc;
+  height: 311px;
+  border-bottom: none;
+  padding-left: 14px;
+}
+.content-block h3 a {
+  color: #d92128;
+  float: left;
+  text-decoration: none;
+  margin-top: 0px;
+  font-size: 12px;
+}
+.content-block .view-price {
+  float: left;
+  width: 220px;
+}
+.content-block .view-price .price {
+  width: 220px;
+  text-align: center;
+  height: 60px;
+  margin-top: 8px;
+}
+.content-block .view-details {
+  float: left;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+.content-block .view-details img {
+  margin: 0 0 10px;
+}
+.content-block .image {
+  width: 186px;
+  float: left;
+  padding-left: 17px;
+  margin-left: 5px;
+  padding-top: 4px;
+}
+.content-block:hover {
+  background: url(../img/hover-grid-bg.png) no-repeat;
+  float: left;
+  border-right: none;
+  height: 311px;
+}
