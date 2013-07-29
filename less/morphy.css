@@ -283,7 +283,6 @@ ul#breadcrumb li a {
 }
 .content-block {
   float: left;
-  border-right: 1px dotted #ccc;
   height: 311px;
   border-bottom: none;
   padding-left: 14px;
@@ -300,10 +299,11 @@ ul#breadcrumb li a {
   width: 220px;
 }
 .content-block .view-price .price {
-  width: 220px;
   text-align: center;
   height: 60px;
   margin-top: 8px;
+  font-size: 14px;
+  font-weight: bold;
 }
 .content-block .view-details {
   float: left;
