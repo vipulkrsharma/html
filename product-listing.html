@@ -447,3 +447,39 @@
 <script src="js/bootstrap/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+<div class="span12 main-title">{{tag|ms-ucfirst}}</div>
+
+<div class="row">
+    <div class="span3 content-block" ng-repeat="product in products">
+        <a href="#" class="image">
+            <div class="image">
+                <img border="0" src="{{prodcut.images[0].image | image}}" alt="{{product.alias}}" width="140" height="140">
+            </div>
+        </a>
+        <div class="view-content left-1">
+            <br clear="all">
+            <h3>
+                <a href="/productdescription/{{product.alias}}" class="text">{{product.name}}</a>
+            </h3>
+            <br clear="all">
+        </div>
+        <div class="view-price">
+                    <span class="price">
+                        <span>
+                            <span>MRP: </span> Rs. {{product.price}}
+                        </span>
+                    </span>
+            <div class="view-details">
+                <a href="/productdescription/{{product.alias}}" style="float:right;">
+                    <img src="{{'view-details-btn.png'| asset}}" border="0" width="126" height="27" alt="view details" title="view details">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

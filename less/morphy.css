@@ -1,145 +1,37 @@
 .navbar-inverse .navbar-inner {
+  padding-left: 10%;
   background-color: #ffffff;
   background-repeat: no-repeat;
   background-image: none;
   border-color: #ffffff;
 }
-.navbar-inverse .navbar-inner .nav {
-  /*a.bevereges {
-      background: url(../img/menu-sprite-v2.png) -263px -3px no-repeat;
-      width: 85px;
-      height: 40px;
-      float: left;
-      color: #ccc;
-      text-decoration: none;
-      text-align: right;
-      font-size: 9px;
-    }
-    a.cooking {
-      background: url(../img/menu-sprite-v2.png) -628px -3px no-repeat;
-      width: 110px;
-      height: 40px;
-      color: #ccc;
-      text-decoration: none;
-      span {
-        margin-top: -7%;
-        width: 70px;
-        float: right;
-        font-size: 9px;
-      }
-    }
-    a.breakfast {
-      background: url(../img/menu-sprite-v2.png) -495px -3px no-repeat;
-      width: 110px;
-      height: 40px;
-      color: #ccc;
-      text-decoration: none;
-      span {
-        width: 70px;
-        float: right;
-        font-size: 9px;
-
-      }
-    }
-    a.food {
-      background: url(../img/menu-sprite-v2.png) -379px -3px no-repeat;
-      width: 100px;
-      height: 40px;
-      color: #ccc;
-      text-decoration: none;
-      span {
-        margin-top: -7%;
-        width: 70px;
-        float: right;
-        font-size: 9px;
-      }
-    }
-    a.garment {
-      background: url(../img/menu-sprite-v2.png) -762px -3px no-repeat;
-      width: 110px;
-      height: 40px;
-      color: #ccc;
-      text-decoration: none;
-      span {
-        margin-top: -7%;
-        width: 70px;
-        float: right;
-        font-size: 9px;
-      }
-    }
-    a.floor {
-      background: url(../img/menu-sprite-v2.png) -132px -3px no-repeat;
-      width: 105px;
-      height: 40px;
-      color: #ccc;
-      text-decoration: none;
-      span {
-        margin-top: -7%;
-        width: 70px;
-        float: right;
-        font-size: 9px;
-      }    }
-    a.personal {
-      background: url(../img/menu-sprite-v2.png) 0px -5px no-repeat;
-      width: 105px;
-      height: 40px;
-      color: #ccc;
-      text-decoration: none;
-      span {
-        margin-top: -7%;
-        width: 70px;
-        float: right;
-        font-size: 9px;
-      }    }
-    a.heating {
-      background: url(../img/menu-sprite-v2.png) -901px -3px no-repeat;
-      width: 105px;
-      height: 40px;
-      color: #ccc;
-      text-decoration: none;
-      span {
-        margin-top: -7%;
-        width: 70px;
-        float: right;
-        font-size: 9px;
-      }    }*/
-
-}
-.navbar-inverse .navbar-inner .nav li {
-  max-width: 110px;
-}
 .navbar-inverse .navbar-inner .nav li a:hover {
   color: black;
 }
-.cart-icon {
-  background: url(../img/icons.png) no-repeat -63px -2px;
-  width: 22px;
-  height: 16px;
-  margin-left: 3px;
-  margin-top: 2px;
+.navbar-inverse .navbar-inner .brand {
+  margin-top: 10px;
+  color: red;
 }
-.topnavigation-cart {
-  padding: 20px;
-  color: #878787;
+.jumbotron {
+  position: relative;
+  padding: 40px 0;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
+  background: #020031;
+  background: -moz-linear-gradient(45deg, #020031 0%, #6d3353 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #020031), color-stop(100%, #6d3353));
+  background: -webkit-linear-gradient(45deg, #020031 0%, #6d3353 100%);
+  background: -o-linear-gradient(45deg, #020031 0%, #6d3353 100%);
+  background: -ms-linear-gradient(45deg, #020031 0%, #6d3353 100%);
+  background: linear-gradient(45deg, #020031 0%, #6d3353 100%);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#020031', endColorstr='#6d3353', GradientType=1);
+  -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.2), inset 0 -3px 7px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.2), inset 0 -3px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.2), inset 0 -3px 7px rgba(0, 0, 0, 0.2);
 }
-.topnavigation-cart a {
-  color: #b5b5b5;
-  text-decoration: none;
-  font-weight: bold;
-}
-.topnavigation-cart .total {
-  border-left: 1px solid #878787;
-  margin-left: 6px;
-  padding-left: 6px;
-}
-.topnavigation-cart .fon-11 {
-  font-size: 11px;
-}
-#mainCarousel .carousel-inner .item img {
-  width: 100%;
-}
-#mainCarouselContainer {
-  padding-top: 15%;
+body {
+  font-family: "open sans";
 }
 #mainCarouselContainer .row {
   position: relative;
@@ -151,17 +43,13 @@
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
-#productDescription {
-  padding-top: 15%;
+#mainCarouselContainer .carousel-inner .item img {
+  width: 100%;
 }
 .form-search {
   margin-top: 20px;
 }
 @media (max-width: 979px) {
-  #mainCarouselContainer,
-  #productDescription {
-    padding-top: 0%;
-  }
   .navbar-inverse .navbar-inner .nav li {
     max-width: 100%;
   }
@@ -246,22 +134,8 @@ ul#breadcrumb li a {
   margin-top: -396px;
   margin-bottom: 37px;
 }
-.fb {
-  background-image: url(http://passets.pinterest.com/images/pidgets/bps1.png) !important;
-  background-repeat: none!important;
-  background-size: 40px 60px!important;
-  height: 20px!important;
-  margin: 0!important;
-  padding: 0!important;
-  vertical-align: baseline!important;
-  text-decoration: none!important;
-  width: 40px!important;
-  background-position: 0 -20px;
-}
 .price {
   font-size: 25px;
-  /*margin-right: 161px;*/
-
   margin-top: -354px;
   margin-bottom: 37px;
 }
@@ -275,10 +149,8 @@ ul#breadcrumb li a {
   width: 420px;
   margin-bottom: 5px;
 }
+.tab-content .tab-pane .title,
 .tab-content .tab-pane .box {
-  margin-top: 5px;
-}
-.tab-content .tab-pane .title {
   margin-top: 5px;
 }
 .content-block {
@@ -290,6 +162,7 @@ ul#breadcrumb li a {
 .content-block h3 a {
   color: #d92128;
   float: left;
+  margin-left: 10%;
   text-decoration: none;
   margin-top: 0px;
   font-size: 12px;
@@ -304,6 +177,7 @@ ul#breadcrumb li a {
   margin-top: 8px;
   font-size: 14px;
   font-weight: bold;
+  margin-left: 12%;
 }
 .content-block .view-details {
   float: left;
@@ -321,8 +195,29 @@ ul#breadcrumb li a {
   padding-top: 4px;
 }
 .content-block:hover {
-  background: url(../img/hover-grid-bg.png) no-repeat;
+  background-color: lightgray;
   float: left;
   border-right: none;
   height: 311px;
+}
+footer {
+  padding: 10px;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 5px;
+}
+footer .row-fluid a {
+  color: #999;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+}
+footer .row-fluid a:hover {
+  color: #000000;
+}
+#addsBox .row-fluid .span6 {
+  argin: 15px 0;
+  padding: 39px 19px 14px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
